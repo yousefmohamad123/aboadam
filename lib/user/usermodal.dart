@@ -9,7 +9,7 @@ class UserModel {
     fullData = fullData.map(
           (user) {
         return {
-          "name": user["name"]["last"] + " " + user["name"]["last"],
+          "name": user["name"]["bol"] + " " + user["name"]["last"],
           "email": user["email"],
           "image": user["picture"]["thumbnail"],
         };
